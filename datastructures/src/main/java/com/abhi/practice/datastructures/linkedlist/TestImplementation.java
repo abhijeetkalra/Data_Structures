@@ -6,7 +6,7 @@ public class TestImplementation {
 		
 		//testLinkedList();
 		//testDoublyLinkedList();
-		testCircularLinkedList();
+		//testCircularLinkedList();
 	}
 	
 	public static void testLinkedList() {
@@ -35,7 +35,7 @@ public class TestImplementation {
 		System.out.println(doublyLinkedList.toString());
 	}
 	
-	public static void testCircularLinkedList() {
+	/*public static void testCircularLinkedList() {
 		CircularLinkedList ciList = new CircularLinkedList();
 		ciList.add(3);
 		System.out.println(ciList.contains(3));
@@ -50,5 +50,5 @@ public class TestImplementation {
 		System.out.println(ciList);
 		System.out.println(ciList.contains(2));
 		
-	}
+	}*/
 }
