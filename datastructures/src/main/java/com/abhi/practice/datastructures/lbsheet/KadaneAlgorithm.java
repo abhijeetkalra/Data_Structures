@@ -1,4 +1,4 @@
-package com.abhi.practice.datastructures.arrays;
+package com.abhi.practice.datastructures.lbsheet;
 
 public class KadaneAlgorithm {
 	
