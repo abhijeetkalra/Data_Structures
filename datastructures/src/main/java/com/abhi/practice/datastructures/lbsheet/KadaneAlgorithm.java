@@ -5,7 +5,7 @@ public class KadaneAlgorithm {
 	public static void main(String[] args) {
 		KadaneAlgorithm obj = new KadaneAlgorithm();
 		//int[] arr = {1,2,3,-20,5};
-		int[] arr = {-1,-2,-3,20,-40,10};
+		int[] arr = {-1,-2,-3,20,440,10};
 		System.out.println(obj.mySol(arr, arr.length));
 		System.out.println(obj.mySolHint(arr, arr.length));
 	}

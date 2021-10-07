@@ -176,8 +176,6 @@ class Juspay {
         		list.clear();
         	}
     	}
-    	
-    	
     	return true;
     }
     
