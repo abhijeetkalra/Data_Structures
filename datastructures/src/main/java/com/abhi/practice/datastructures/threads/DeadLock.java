@@ -5,7 +5,10 @@ public class DeadLock {
 	public static void main(String[] args) throws InterruptedException {
 		Model model = new Model();
 		
-		Runnable runnable1 = () -> model.methodA();
+		Runnable runnable1 = () ->{ 
+			model.methodA();
+			//Other code
+			};
 		Runnable runnable2 = () -> model.methodB();
 		
 		Thread t1 = new Thread(runnable1);

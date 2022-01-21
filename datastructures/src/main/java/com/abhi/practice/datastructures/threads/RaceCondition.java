@@ -19,7 +19,7 @@ public class RaceCondition {
 		}
 		
 		for(int i=0;i<t.length;i++) {
-			//t[i].join();
+			t[i].join();
 		}
 		
 		System.out.println("Value = " + lw.getValue());

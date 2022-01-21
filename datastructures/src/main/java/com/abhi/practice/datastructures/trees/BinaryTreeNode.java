@@ -37,11 +37,12 @@ public class BinaryTreeNode {
 	public static BinaryTreeNode generateTree() {
 		
 		/*	
-		 * 				1
+		 * 				1 
 		 * 			2		3
 		 * 		  4   5	  6   7
 		 * 
 		 */
+		
 		
 		BinaryTreeNode node1 = new BinaryTreeNode(1);
 		BinaryTreeNode node2 = new BinaryTreeNode(2);

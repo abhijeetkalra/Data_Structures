@@ -20,6 +20,7 @@ public class Airtel2 {
 		
 		strSet.add(b);
 		strSet.add(a);
+		strSet.add(d);
 		System.out.println(strSet.size());
 		
 		String s = "dedicated";

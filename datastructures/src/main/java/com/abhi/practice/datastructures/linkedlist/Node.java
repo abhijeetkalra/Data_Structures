@@ -1,10 +1,11 @@
 package com.abhi.practice.datastructures.linkedlist;
 
-public class ListNode {
-	public int data;
-	public ListNode next;
+public class Node {
 	
-	public ListNode(int data) {
+	public int data;
+	public Node next;
+	
+	public Node(int data) {
 		this.data = data;
 	}
 
@@ -16,12 +17,12 @@ public class ListNode {
 		this.data = data;
 	}
 
-	public ListNode getNext() {
+	public Node getNext() {
 		return next;
 	}
 
-	public void setNext(ListNode next) {
+	public void setNext(Node next) {
 		this.next = next;
 	}
-	
+
 }

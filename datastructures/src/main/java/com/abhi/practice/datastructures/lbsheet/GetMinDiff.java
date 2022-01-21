@@ -12,7 +12,18 @@ public class GetMinDiff {
 	
 	public static void main(String[] args) {
 		//int[] arr = new int[] {2,6,3,4,7,2,10,3,2,1}; int k=5; //Ans 7
+		/*
+		 * 1,2,3,4,6,7,10
+		 * 6,7,8,9,(1,11),(2,12),(5,15) 				8,9,7
+		 * 
+		 */
+		
 		//int[] arr = new int[] {1,5,8,10}; int k=2; //Ans 5
+		/*
+		 * 1,5,8,10
+		 * 3,(3,7),(6,10),(8,12)
+		 * 
+		 */
 		//int[] arr = new int[] {3,9,12,16,20}; int k=3; //Ans 11
 		//int[] arr = new int[] {6,1,9,1,1,7,9,5,2,10}; int k =4; //Ans 5
 		int[] arr = new int[] {3,4,12,13,14}; int k =5; //Ans 5
